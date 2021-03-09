@@ -5,6 +5,9 @@
 Я добавил CRUD с Json-файлами:
 
 curl -X GET localhost/Restful_Service/goods/1 -i
+
 curl -X PATCH localhost/Restful_Service/goods/1 --data "price=20001" -i
+
 curl -X PUT localhost/Restful_Service/goods/1 --data "good=ring&price=20001" -i
+
 curl -X DELETE localhost/Restful_Service/goods/1 -i
