@@ -22,7 +22,6 @@ if ($method === 'GET' && count($urlData) === 1) {
 
     // Добавление нового товара
     // POST /goods 
-    //curl -X POST localhost/goods/ --data "id=2&price=20000" -i
 if ($method === 'POST' && empty($urlData)) {
     $goodId = $_POST['id'];
     $goodTitle =  $_POST['good'];
