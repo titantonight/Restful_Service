@@ -25,7 +25,6 @@ if ($method === 'GET' && count($urlData) === 1) {
 
     // Добавление нового пользователя
     // POST /user
-    //curl -X POST localhost/goods/ --data "id=2&price=20000" -i
 if ($method === 'POST' && empty($urlData)) {
     $userId = $_POST['id'];
     $userName =  $_POST['name'];
